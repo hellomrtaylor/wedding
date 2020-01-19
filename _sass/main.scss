@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Abril Fatface', serif;
+  font-size: 15vw;
+  margin: 10px 0;
+  color: #393636;
+  background: url(/images/beach.jpeg) no-repeat 100%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+  @media all and (min-width: 520px) {
+      font-size: 10vw;
+  }
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: block;
+  font-size: 7vw;
+
+  @media all and (min-width: 520px) {
+    font-size: 3vw;
+  }
+    color: #393636;
+
+}
+
