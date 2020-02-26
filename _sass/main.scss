@@ -43,7 +43,8 @@ body {
   padding: 0 24px;
 
   @media all and (min-width: 1024px) { 
-      grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    border: 8px solid #fff;
   }
 }
 
