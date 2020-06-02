@@ -1,0 +1,50 @@
+.form_required-indicator {
+  color: #EA7662;
+}
+
+.form_input,
+.form_label,
+.form_button  {
+  display:block;
+  width: 100%;
+  font-size: 4.4vw;
+  @media all and (min-width: 550px) { 
+    font-size: 18px;
+  }
+}
+
+.form_label {
+  margin-bottom: 4px;
+}
+
+.form_input {
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+  background-color: rgba(255,255,255,0.7);
+  border: 3px solid rgba(255,255,255,0.5);
+}
+
+.form_input:focus {
+  outline: none;
+  background-color: #FFF;
+  border: 3px solid #EA7662;
+}
+
+.form_button {
+  padding: 16px;
+  border: none;
+  background-color: #EA7662;
+  border-radius: 8px;
+  color: #fff;
+  border: 3px solid rgba(255,255,255,0.5);
+}
+
+.form_button:focus {
+  outline: none;
+  border: 3px solid #fff;
+}
+
+.form_group {
+  margin-bottom: 24px;
+}
