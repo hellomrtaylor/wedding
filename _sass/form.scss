@@ -40,9 +40,11 @@
   border: 3px solid rgba(255,255,255,0.5);
 }
 
-.form_button:focus {
+.form_button:focus, .form_button:hover {
   outline: none;
   border: 3px solid #fff;
+  background-color: #DE6B57;
+
 }
 
 .form_group {
